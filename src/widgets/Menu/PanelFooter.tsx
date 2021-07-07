@@ -5,6 +5,7 @@ import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
+import Image from "../../components/Image/Image";
 import Skeleton from "../../components/Skeleton/Skeleton";
 import Button from "../../components/Button/Button";
 import IconButton from "../../components/Button/IconButton";
@@ -77,6 +78,7 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
+      <a href="https://rugdoc.io/project/parachute-swap/"><Image src="/images/rugdoc.png" width={230} height={98} /></a>
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
