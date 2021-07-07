@@ -2367,7 +2367,7 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container$4, null,
         React.createElement("a", { href: "https://rugdoc.io/project/parachute-swap/" },
-            React.createElement(Image, { src: "/images/rugdoc.png", width: 230, height: 98 })),
+            React.createElement(Image, { src: "/images/rugdoc.png", width: 230, height: 75 })),
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$v, { width: "24px", mr: "8px" }),

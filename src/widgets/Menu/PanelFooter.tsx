@@ -78,7 +78,7 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      <a href="https://rugdoc.io/project/parachute-swap/"><Image src="/images/rugdoc.png" width={230} height={98} /></a>
+      <a href="https://rugdoc.io/project/parachute-swap/"><Image src="/images/rugdoc.png" width={230} height={75} /></a>
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
